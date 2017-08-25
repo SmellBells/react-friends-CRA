@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FriendsList from './components/FriendsList';
 import './App.css';
 
 class App extends Component {
@@ -8,7 +9,7 @@ class App extends Component {
             <h1>The facebook Friend Machine</h1>
 
             <div className="friends">
-
+                <FriendsList />
             </div>
         </div>
     );
